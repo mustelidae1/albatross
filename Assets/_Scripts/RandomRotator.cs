@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Randomly rotates GameObject by given value.
+/// </summary>
+/// 
 public class RandomRotator : MonoBehaviour {
 
     public float tumble;

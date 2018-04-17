@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Destroy game object after given lifetime.
+/// </summary>
+
 public class NewBehaviourScript : MonoBehaviour {
 
 	//can edit the amount of time before destroyed

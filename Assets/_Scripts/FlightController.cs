@@ -2,28 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Allows player to control flight of albatross.
+/// </summary>
+
 public class FlightController : MonoBehaviour {
 
-    private Rigidbody rb; 
+    private Rigidbody rb;
+    public int verticalForce; // Up force of albatross.
 
-	// Use this for initialization
 	void Start () {
-        rb = this.GetComponent<Rigidbody>();
-        Debug.Log(rb); 
+        rb = this.GetComponent<Rigidbody>(); // Getting rigid body of parent object.
+        print(rb); 
 	}
 	
-	// Update is called once per frame
 	void Update () {
-        Vector3 force = new Vector3(0, 100, 0); 
-        if (rb.velocity.y < 0) {
-            force.x = -rb.velocity.y; 
-        }
-        if (Input.GetKey("space"))
+        Vector3 force = new Vector3(0, verticalForce, 0); 
+        if (Input.GetKey("space")) // When player hits space bar...
         {
-            Debug.Log("FORCE!");
-            //Vector3 force = new Vector3(0, 10, 0); 
-            rb.AddForce(new Vector3(0, 100, 0)); 
-       //     rb.velocity = Vector3.Lerp(rb.velocity, transform.forward * rb.velocity.magnitude, Time.deltaTime / 1);
+            Debug.Log("FORCE!"); 
+            rb.AddForce(force); // Add a vertical force of 100.
         }
 	}
 }

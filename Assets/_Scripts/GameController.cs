@@ -6,6 +6,10 @@ using UnityEngine.UI;
 //needed for restarting the scene
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Spawns hazards in game with specific time intervals in between each.
+/// </summary>
+
 public class GameController : MonoBehaviour {
 
     public GameObject hazard1;
