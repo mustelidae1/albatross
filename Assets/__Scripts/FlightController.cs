@@ -4,26 +4,39 @@ using UnityEngine;
 
 public class FlightController : MonoBehaviour {
 
-    private Rigidbody rb; 
+    private Rigidbody rb;
 
-	// Use this for initialization
-	void Start () {
+    [Header("Set in inspector")]
+    public float speedy = 30;
+    public float speedz = 50; 
+    //public float rollMult = -45;
+    public float pitchMult = 30;
+    public float gravity = -1f; 
+
+    // Use this for initialization
+    void Start () {
         rb = this.GetComponent<Rigidbody>();
-        Debug.Log(rb); 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        Vector3 force = new Vector3(0, 100, 0); 
-        if (rb.velocity.y < 0) {
-            force.x = -rb.velocity.y; 
-        }
-        if (Input.GetKey("space"))
+        Vector3 pos = transform.position;
+
+        float yAxis = Input.GetAxis("Vertical");
+        
+        if (yAxis == 0)
         {
-            Debug.Log("FORCE!");
-            //Vector3 force = new Vector3(0, 10, 0); 
-            rb.AddForce(new Vector3(0, 100, 0)); 
-       //     rb.velocity = Vector3.Lerp(rb.velocity, transform.forward * rb.velocity.magnitude, Time.deltaTime / 1);
+            yAxis = gravity; 
         }
+       
+        pos.y += yAxis * speedy * Time.deltaTime;
+        pos.z += yAxis * speedz * Time.deltaTime;
+       
+
+        transform.position = pos;
+
+        // Rotate the albatross 
+        transform.rotation = Quaternion.Euler(yAxis * pitchMult, 0, 0);
+        
 	}
 }

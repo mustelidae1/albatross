@@ -8,7 +8,11 @@ public class DestroyByBoundary : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         //destory the object that leaves the object this script is attached to
-        Destroy(other.gameObject);
+        if (other.tag != "Player")
+        {
+            Destroy(other.gameObject);
+        }
+        
     }
 
 }
