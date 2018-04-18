@@ -6,6 +6,7 @@ using UnityEngine;
 /// Destroys child objects that are no longer colliding with the parent trigger object.
 /// </summary>
 
+
 public class DestroyByBoundary : MonoBehaviour
 {
     //when the two objects are no longer touching...

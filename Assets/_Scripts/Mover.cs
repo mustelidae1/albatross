@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Moves things... like rocks.
+/// </summary>
 public class Mover : MonoBehaviour {
 
     //creating var for rigidbody
