@@ -8,12 +8,10 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
-    public GameObject hazard1;
-    public GameObject hazard2;
+    public GameObject hazard;
     public Vector3 spawnValues;
     public int hazardCount;
     public float spawnWait;
-
     //gives player a second to get feel for the ship controls
     public float startWait;
     public float waveWait;
@@ -58,12 +56,12 @@ public class GameController : MonoBehaviour {
             {
                 //random.range (min, max) values for asteroid spawn point on X axis
                 Vector3 spawnPosition1 = new Vector3(spawnValues.x, Random.Range(spawnValues.y-3, spawnValues.y+3), spawnValues.z);
-                Vector3 spawnPosition2 = new Vector3(spawnValues.x+35, Random.Range(spawnValues.y - 8, spawnValues.y), spawnValues.z-25);
+                Vector3 spawnPosition2 = new Vector3(spawnValues.x+35, Random.Range(spawnValues.y - 8, spawnValues.y), spawnValues.z-15);
                 //Quaternion.identity cooresponds to no rotation at all
-                Quaternion spawnRotation = Quaternion.Euler(0,90,Random.Range(0, 90));
-
-                Instantiate(hazard1, spawnPosition1, spawnRotation);
-                Instantiate(hazard2, spawnPosition2, spawnRotation);
+                Quaternion spawnRotation = Quaternion.Euler(0,90,0);
+                
+                Instantiate(hazard, spawnPosition1, spawnRotation);
+                Instantiate(hazard, spawnPosition2, spawnRotation);
 
                 //this function needs to be a coroutine to work with this "waitForSeconds" thing
                 //WaitForSeconds(spawnWait);   <----won't work
