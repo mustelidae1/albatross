@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 64467e4672fc13e4292acd04c606b2bf
+timeCreated: 1524510222
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Alabatross
+    100002: Alabtross Mesh
+    100004: //RootNode
+    100006: Bone
+    100008: Bone_end
+    100010: head
+    100012: n_feather.001.L
+    100014: n_feather.001.L_end
+    100016: n_feather.001.R
+    100018: n_feather.001.R_end
+    100020: neck.001
+    100022: neck.002
+    100024: pelvis.L
+    100026: pelvis.L_end
+    100028: pelvis.R
+    100030: pelvis.R_end
+    100032: shoulder.L
+    100034: shoulder.R
+    100036: spine
+    100038: spine.001
+    100040: spine.002
+    100042: spine.003
+    100044: spine.004
+    100046: spine.005
+    100048: spine.006
+    100050: t_feather.L
+    100052: t_feather.L_end
+    100054: t_feather.R
+    100056: t_feather.R_end
+    100058: w_feather.001.L
+    100060: w_feather.001.L_end
+    100062: w_feather.001.R
+    100064: w_feather.001.R_end
+    100066: Wing.001.L
+    100068: Wing.001.R
+    100070: Wing.002.L
+    100072: Wing.002.L.002
+    100074: Wing.002.R
+    100076: Wing.002.R.002
+    100078: Wing.002.R.002_end
+    100080: Wing.L
+    100082: Wing.R
+    400000: Alabatross
+    400002: Alabtross Mesh
+    400004: //RootNode
+    400006: Bone
+    400008: Bone_end
+    400010: head
+    400012: n_feather.001.L
+    400014: n_feather.001.L_end
+    400016: n_feather.001.R
+    400018: n_feather.001.R_end
+    400020: neck.001
+    400022: neck.002
+    400024: pelvis.L
+    400026: pelvis.L_end
+    400028: pelvis.R
+    400030: pelvis.R_end
+    400032: shoulder.L
+    400034: shoulder.R
+    400036: spine
+    400038: spine.001
+    400040: spine.002
+    400042: spine.003
+    400044: spine.004
+    400046: spine.005
+    400048: spine.006
+    400050: t_feather.L
+    400052: t_feather.L_end
+    400054: t_feather.R
+    400056: t_feather.R_end
+    400058: w_feather.001.L
+    400060: w_feather.001.L_end
+    400062: w_feather.001.R
+    400064: w_feather.001.R_end
+    400066: Wing.001.L
+    400068: Wing.001.R
+    400070: Wing.002.L
+    400072: Wing.002.L.002
+    400074: Wing.002.R
+    400076: Wing.002.R.002
+    400078: Wing.002.R.002_end
+    400080: Wing.L
+    400082: Wing.R
+    2100000: 02___Default
+    2100002: Main
+    4300000: Alabtross Mesh
+    7400000: Alabatross|IdleAnimation1
+    7400002: Alabatross|DeathAnimation1
+    7400004: Alabatross|DeathAnimation1.001
+    9500000: //RootNode
+    13700000: Alabtross Mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Alabatross|DeathAnimation1
+      takeName: Alabatross|DeathAnimation1
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Alabatross|IdleAnimation1
+      takeName: Alabatross|IdleAnimation1
+      firstFrame: 0
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

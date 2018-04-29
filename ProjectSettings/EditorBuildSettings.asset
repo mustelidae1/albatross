@@ -5,6 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/_Scenes/_Scene_Gyroscope.unity
+    guid: ef32a673ff2dfba43915fc2147ba33eb
   - enabled: 1
-    path: Assets/_Scenes/_Scene_0.unity
-    guid: 10f5996e2554223469ac77ea3e36900e
+    path: Assets/_Scenes/Menu.unity
+    guid: 67e3ea4e40af73e48860d89aceb98f3d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/_Scene_Boundary_And_WinFail.unity
+    guid: 5f0b038d8614d80418941913f600a315
+  - enabled: 0
+    path: Assets/_Scenes/_Scene_Database.unity
+    guid: 9916e6b831bcb31448a6430e474287a8

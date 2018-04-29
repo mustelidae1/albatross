@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albatross Project (2)", "Albatross Project (2).csproj", "{97AF0190-9F28-B108-679E-6ECB3E0CEC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albatross Project (2).Plugins", "Albatross Project (2).Plugins.csproj", "{2CC1CB1C-5CF9-F48A-E02C-D7D68C7E10C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albatross Project (2).Editor.Plugins", "Albatross Project (2).Editor.Plugins.csproj", "{59D68129-77BA-46C4-F0C1-3024899CE83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97AF0190-9F28-B108-679E-6ECB3E0CEC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AF0190-9F28-B108-679E-6ECB3E0CEC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AF0190-9F28-B108-679E-6ECB3E0CEC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AF0190-9F28-B108-679E-6ECB3E0CEC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC1CB1C-5CF9-F48A-E02C-D7D68C7E10C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC1CB1C-5CF9-F48A-E02C-D7D68C7E10C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC1CB1C-5CF9-F48A-E02C-D7D68C7E10C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC1CB1C-5CF9-F48A-E02C-D7D68C7E10C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D68129-77BA-46C4-F0C1-3024899CE83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D68129-77BA-46C4-F0C1-3024899CE83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D68129-77BA-46C4-F0C1-3024899CE83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D68129-77BA-46C4-F0C1-3024899CE83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
